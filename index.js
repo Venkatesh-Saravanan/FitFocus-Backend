@@ -10,7 +10,10 @@ const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY);
 
 // MIDDLEWARE
 app.use(cors({
-  origin: ['http://localhost:5173'],
+  origin: ['fitness-tracker-project-a1fbd.web.app',
+    'http://localhost:5173',
+    'fitness-tracker-project-a1fbd.firebaseapp.com',
+    'https://assignment-12af.netlify.app',],
   credentials: true
 }));
 app.use(express.json());
