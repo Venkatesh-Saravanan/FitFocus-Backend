@@ -1,10 +1,10 @@
-# PAVILION FITFOCUS
+# FITFOCUS BACKEND
 
-Welcome to the PAVILION FITFOCUS Backend repository! This backend system serves as the backbone for a comprehensive fitness tracking application, providing robust functionality to manage user data, fitness classes, payments, and more. Built using Node.js, Express, MongoDB, and integrated with Stripe for payment processing, this backend ensures seamless operation and scalability for your fitness platform.
+Welcome to the FITFOCUS Backend repository! This backend system serves as the backbone for a comprehensive fitness tracking application, providing robust functionality to manage user data, fitness classes, payments, and more. Built using Node.js, Express, MongoDB, and integrated with Stripe for payment processing, this backend ensures seamless operation and scalability for your fitness platform.
 
 ### Introduction
 
-The PAVILION FITFOCUS Backend is designed to handle the core functionalities required by fitness applications. It allows users to sign up, book classes, make payments, and interact with trainers. This document provides a comprehensive guide on setting up, configuring, and using the backend system effectively.
+The FITFOCUS Backend is designed to handle the core functionalities required by fitness applications. It allows users to sign up, book classes, make payments, and interact with trainers. This document provides a comprehensive guide on setting up, configuring, and using the backend system effectively.
 
 ## Features
 
@@ -57,7 +57,4 @@ The backend implements robust security measures:
 - **Encryption**: HTTPS for encrypted data transmission.
 - **Validation**: Input validation and sanitization to prevent attacks.
 
-## Contributing
-
-Contributions to the PAVILION FITFOCUS Backend are welcome! Fork the repository, make improvements, and submit a pull request. Please adhere to the code of conduct and follow best practices for software development.
 
