@@ -9,7 +9,11 @@ const feature = require('./Features.json');
 const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY);
 
 // MIDDLEWARE
-app.use(cors());
+app.use(cors({
+  origin: ['http://localhost:5173',
+    'https://assignment-12af.netlify.app'],
+  credentials: true
+}));
 app.use(express.json());
 
 
